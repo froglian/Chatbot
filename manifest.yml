@@ -1,8 +1,8 @@
 ---
 applications:
-- name: webchatbot
+- name: howard-chatbot
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
-    CONVERSATION_WORKSPACE_ID: 2e38d5ef-7506-4e38-804e-e83f3cbe6926
-    CAR_SERVICE_HOST: webchatbotcar.mybluemix.net
+    CONVERSATION_WORKSPACE_ID: 8a5e2633-a23b-42f2-9df0-dd9a24998c22
+    CAR_SERVICE_HOST: HowardDriveCar.mybluemix.net
